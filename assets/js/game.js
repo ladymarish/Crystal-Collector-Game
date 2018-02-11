@@ -50,6 +50,7 @@ $(".cr").on("click", function() {
    $(".score").html(totalScore);
    if (totalScore === computerGuess) {
      $("body").css("background-image", 'url("' + changeWonBackground + '")');
+     $("body").css("transition", 'opacity 1s ease-in-out');
 	  wins += 1;
 	  $("#wins").html("Wins: " + wins);
 	  gameEnd = true;
@@ -57,11 +58,27 @@ $(".cr").on("click", function() {
    }
    else if (totalScore > computerGuess) {
       $("body").css("background-image", 'url("' + changeLostBackground + '")');
+      $("body").css("transition", 'opacity 1s ease-in-out');
       losses += 1;
       $("#losses").html("Losses: " + losses);
       gameEnd = true;
       startGame ();
    }
+});
+
+
+//Game Rules Lightbox
+
+$("#clickMe").on("click", function() {
+   $("#popup").css("display", "block");
+});
+
+$("span").on("click", function() {
+   $("#popup").css("display", "none");
+});
+
+$("#popup").on("click", function() {
+      $("#popup").css("display", "none");
 });
 
 

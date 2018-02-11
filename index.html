@@ -6,11 +6,24 @@
 	<title>Game</title>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/js/game.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+   <!-- Modal Rules -->
+   <div id="clickMe">Game Rules »</div>
+      <div id="popup">
+         <div class="popup-content">
+            <span class="close">&times;</span>
+              <p>You will be given a random number at the start of the game.</p>
+              <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </o>
+              <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+              <p>The value of each crystal is hidden from you until you click on it.</p>
+              <p>Each time when the game starts, the game will change the values of each crystal.</p>
+         </div>
+      </div>
 	<div class="container">
 	   <h1>Crystals Collector</h1>
 	   <section class="scoreboard">
@@ -30,6 +43,5 @@
        <div class="score"></div>
 	  </div>
 	 </div>
-     <script src="assets/js/game.js"></script>
    </body>
 </html>
