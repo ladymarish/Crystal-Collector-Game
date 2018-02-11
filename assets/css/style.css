@@ -1,0 +1,85 @@
+*, ::after, ::before {
+	box-sizing:content-box;
+}
+
+body {
+	color:#fff;
+	font-size: 25px;
+    background:url("../images/week-4-background.jpg") no-repeat; 
+    font-family: 'Chelsea Market', cursive;
+    background-size: 100vw 100vh;
+    background-color: #00030c;
+}
+
+.crystals {
+    margin:0 auto;
+    width:460px;
+}
+
+.crystals img {
+	width:100px;
+	height:100px;
+    float:left;
+ 	margin-right: 15px;
+}
+
+.scoreboard {
+	border:5px solid white;
+	background:rgba(3,44,101,0.3);
+	padding:20px;
+	width:70%;
+	margin: 0 auto 6%;
+	border-radius:30px;
+}
+
+.crystals:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+button {
+	border-radius: 25px;
+	background-color: #041d60;
+	color:#1965d3;
+	border:0;
+	font-size: 18px;
+	padding:15px;
+	transition:2s ease-out;
+}
+
+#total-score {
+	margin-top:30px;
+	font-size: 30px;
+}
+
+.score {
+	margin-top: 20px;
+}
+
+button:hover {
+    background-color:#010d35;
+}
+
+h1 {
+	font-size: 5rem;
+	color:#fff;
+	margin-bottom: 60px;
+}
+
+#number {
+	font-size:5em;
+	margin:20px 0;
+}
+
+.container {
+	max-width:960px;
+	margin:70px auto 60px;
+	text-align: center;
+}
+
+footer {
+	width:90%;
+	margin:0 auto;
+	text-align: center;
+}
