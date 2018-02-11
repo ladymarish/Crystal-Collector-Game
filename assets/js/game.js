@@ -47,7 +47,7 @@ $(".cr").each(function(index, item) {
 $(".cr").on("click", function() {
    var crystalValue = $(this).attr("crystals");
    totalScore = parseInt(totalScore) + parseInt(crystalValue);
-   $(".score").html(totalScore);
+   $(".score").html("Your Total Score: " + totalScore);
    if (totalScore === computerGuess) {
      $("body").css("background-image", 'url("' + changeWonBackground + '")');
      $("body").css("transition", 'opacity 1s ease-in-out');

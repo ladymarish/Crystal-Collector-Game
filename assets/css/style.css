@@ -4,7 +4,7 @@
 
 body {
 	color:#fff;
-	font-size: 25px;
+	font-size: 20px;
 	background-image:url("../images/week-4-background.jpg");
 	background-color: #08388A;
     font-family: 'Chelsea Market', cursive;
@@ -31,11 +31,11 @@ body {
 
 .scoreboard {
 	border:5px solid white;
-	background:rgba(3,44,101,0.3);
+	background:rgba(3,44,101,0.5);
 	padding:15px;
 	width:70%;
-	margin: 0 auto 6%;
-	border-radius:30px;
+	margin: 0 auto 5%;
+	border-radius:100px;
 }
 
 .crystals:after {
@@ -59,6 +59,15 @@ button {
 	font-size: 30px;
 }
 
+#wins {
+	display: inline-block;
+    float: left;
+    margin-left: 100px;
+}
+
+#wins, #losses {
+	font-size: 25px;
+}
 .score {
 	margin-top: 20px;
 }
@@ -68,19 +77,19 @@ button:hover {
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: 3.5rem;
 	color:#fff;
 	margin: 40px 0;
 }
 
 #number {
-	font-size:4em;
-	margin:20px 0;
+	font-size:3.5em;
+	margin:10px 0 20px;
 }
 
 .container {
 	max-width:960px;
-	margin:5% auto 0;
+	margin:4% auto 0;
 	text-align: center;
 }
 
@@ -139,7 +148,7 @@ footer {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 80px;
     left: 0;
     top: 0;
     width: 100%;
@@ -149,7 +158,7 @@ footer {
 }
 
 .popup-content {
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,1);
     margin: auto;
     color: #333;
     padding: 70px;
