@@ -1,5 +1,7 @@
 ######### week-4-game
 
+Click <a href="https://ladymarish.github.io/week-4-game/">HERE</a> to play the game!
+
 ## THIS GAME INCLUDES ##
 
 - JQuery
