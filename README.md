@@ -1,6 +1,6 @@
 # Crystal Collector Game
 
-Click <a href="https://ladymarish.github.io/week-4-game/">HERE</a> to play the game!
+Click <a href="https://ladymarish.github.io/Crystal-Collector-Game/">HERE</a> to play the game!
 
 ## THIS GAME INCLUDES ##
 
